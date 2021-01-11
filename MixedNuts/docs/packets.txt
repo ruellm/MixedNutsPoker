@@ -1,0 +1,29 @@
+Room request packet(updated 02/22/2009)
+packet_di(space)GameType;     
+packet_id(space)gametype;gamemode;gamelimit;|
+
+Create Game:
+
+7(space)game_id;game_type;game_mode;limit_type;num_players;starting_blind;raise_time;current;blind;raise_factor;action_time_limit;
+
+Room specific 
+packet_id = eRoomSpecific
+
+join game (eJoin)
+packet_id(space)gamepacketid(space)roomnum;seatnum;buyin;|
+
+HoleCards(eServerInfo)
+packet_id(space)gamepacketid(space)roomnum;card1;..;cardn;|
+card info: suite/value;
+
+
+Table snap shot - Holdem
+packet_id(space)gamepacketid(space)roomnum;dealerIdx;SB;BB;bettor;player1;...;playern;|
+player info: player_id/totalchips/bet/action;
+
+Wait 
+packet_id(space)gamepacketid(space)roomnum;|
+
+Action
+packet_id(space)gamepacketid(space)roomnum;action;amount;playerid|
+

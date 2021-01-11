@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="PokerClientDotNET">
+</Property><Property Name="Solution File" Value="E:\MixedNuts\PokerClientDotNET\PokerClientDotNET.sln">
+</Property><Property Name="User Options File" Value="E:\MixedNuts\PokerClientDotNET\PokerClientDotNET.suo">
+</Property><Property Name="Date" Value="Thursday, March 22, 2012">
+</Property><Property Name="Time" Value="11:10 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="PokerClientDotNET.sln" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET.sln">
+</Event><Event ErrorLevel="0" Project="" Source="PokerClientDotNET.suo" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET.suo">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\PokerClientDotNET.csproj" Description="Project file successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\PokerClientDotNET.csproj">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\App.xaml.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\App.xaml.cs">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\Window1.xaml.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\Window1.xaml.cs">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\BuyInWnd.xaml.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\BuyInWnd.xaml.cs">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\ClientInfo.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\ClientInfo.cs">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\ClientSessionData.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\ClientSessionData.cs">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\GameInformation.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\GameInformation.cs">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\HoldemWindow.xaml.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\HoldemWindow.xaml.cs">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\LimitUIHelper.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\LimitUIHelper.cs">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\LogIn.xaml.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\LogIn.xaml.cs">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\PlayerSeat.xaml.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\PlayerSeat.xaml.cs">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\Properties\Resources.Designer.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\Properties\Settings.Designer.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\SevenCardStudWindow.xaml.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\SevenCardStudWindow.xaml.cs">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\Splash.xaml.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\Splash.xaml.cs">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\WinnerCards.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\WinnerCards.cs">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\Properties\Settings.settings" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\Properties\Resources.resx" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\App.xaml" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\App.xaml">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\BureauBlack.xaml" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\BureauBlack.xaml">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\BureauBlue.xaml" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\BureauBlue.xaml">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\BuyInWnd.xaml" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\BuyInWnd.xaml">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\ExpressionDark.xaml" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\ExpressionDark.xaml">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\ExpressionLight.xaml" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\ExpressionLight.xaml">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\HoldemWindow.xaml" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\HoldemWindow.xaml">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\LogIn.xaml" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\LogIn.xaml">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\PlayerSeat.xaml" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\PlayerSeat.xaml">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\SevenCardStudWindow.xaml" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\SevenCardStudWindow.xaml">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\ShinyBlue.xaml" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\ShinyBlue.xaml">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\ShinyRed.xaml" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\ShinyRed.xaml">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\Splash.xaml" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\Splash.xaml">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\WhistlerBlue.xaml" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\WhistlerBlue.xaml">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\Window1.xaml" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerClientDotNET\Window1.xaml">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\PokerClientDotNET.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="PokerClientDotNET" Source="PokerClientDotNET\PokerClientDotNET.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="PokerLibDotNET" Source="PokerLibDotNET\PokerLibDotNET.csproj" Description="Project file successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerLibDotNET\PokerLibDotNET.csproj">
+</Event><Event ErrorLevel="0" Project="PokerLibDotNET" Source="PokerLibDotNET\Card.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerLibDotNET\Card.cs">
+</Event><Event ErrorLevel="0" Project="PokerLibDotNET" Source="PokerLibDotNET\ChatFormater.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerLibDotNET\ChatFormater.cs">
+</Event><Event ErrorLevel="0" Project="PokerLibDotNET" Source="PokerLibDotNET\GameInfo.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerLibDotNET\GameInfo.cs">
+</Event><Event ErrorLevel="0" Project="PokerLibDotNET" Source="PokerLibDotNET\INetPacket.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerLibDotNET\INetPacket.cs">
+</Event><Event ErrorLevel="0" Project="PokerLibDotNET" Source="PokerLibDotNET\NetPacketFactory.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerLibDotNET\NetPacketFactory.cs">
+</Event><Event ErrorLevel="0" Project="PokerLibDotNET" Source="PokerLibDotNET\NetPacketGame.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerLibDotNET\NetPacketGame.cs">
+</Event><Event ErrorLevel="0" Project="PokerLibDotNET" Source="PokerLibDotNET\NetPacketLobbyMsg.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerLibDotNET\NetPacketLobbyMsg.cs">
+</Event><Event ErrorLevel="0" Project="PokerLibDotNET" Source="PokerLibDotNET\PacketParser.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerLibDotNET\PacketParser.cs">
+</Event><Event ErrorLevel="0" Project="PokerLibDotNET" Source="PokerLibDotNET\PacketSender.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerLibDotNET\PacketSender.cs">
+</Event><Event ErrorLevel="0" Project="PokerLibDotNET" Source="PokerLibDotNET\Player.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerLibDotNET\Player.cs">
+</Event><Event ErrorLevel="0" Project="PokerLibDotNET" Source="PokerLibDotNET\PokerHandsLogic.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerLibDotNET\PokerHandsLogic.cs">
+</Event><Event ErrorLevel="0" Project="PokerLibDotNET" Source="PokerLibDotNET\PokerLibDefines.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerLibDotNET\PokerLibDefines.cs">
+</Event><Event ErrorLevel="0" Project="PokerLibDotNET" Source="PokerLibDotNET\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerLibDotNET\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="PokerLibDotNET" Source="PokerLibDotNET\Table.cs" Description="File successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\PokerLibDotNET\Table.cs">
+</Event><Event ErrorLevel="0" Project="PokerLibDotNET" Source="PokerLibDotNET\PokerLibDotNET.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="PokerLibDotNET" Source="PokerLibDotNET\PokerLibDotNET.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MixedNutsInstaller.vdproj" Source="MixedNutsInstaller\MixedNutsInstaller.vdproj" Description="Project file successfully backed up as E:\MixedNuts\PokerClientDotNET\Backup\MixedNutsInstaller\MixedNutsInstaller.vdproj">
+</Event><Event ErrorLevel="0" Project="" Source="PokerClientDotNET.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="PokerClientDotNET.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="PokerClientDotNET" Source="PokerClientDotNET\PokerClientDotNET.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="PokerLibDotNET" Source="PokerLibDotNET\PokerLibDotNET.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

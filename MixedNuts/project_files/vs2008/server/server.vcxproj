@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3B64C51E-6362-468B-9759-E82F0AF8B4CD}</ProjectGuid>
+    <RootNamespace>server</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\source\server\include;..\..\..\source\system\include;..\..\..\source\pokerlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_WIN32_WINNT=0x0501;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>..\Debug\pokerlib.lib;..\Debug\system.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\..\..\source\server\include;..\..\..\source\system\include;..\..\..\source\pokerlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>..\Release\pokerlib.lib;..\Release\system.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\source\server\source\ClientSession.cpp" />
+    <ClCompile Include="..\..\..\source\server\source\ConfigManager.cpp" />
+    <ClCompile Include="..\..\..\source\server\source\DataManager.cpp" />
+    <ClCompile Include="..\..\..\source\server\source\Deck.cpp" />
+    <ClCompile Include="..\..\..\source\server\source\GameBase.cpp" />
+    <ClCompile Include="..\..\..\source\server\source\GameFactory.cpp" />
+    <ClCompile Include="..\..\..\source\server\source\HighLowBase.cpp" />
+    <ClCompile Include="..\..\..\source\server\source\IOServicePool.cpp" />
+    <ClCompile Include="..\..\..\source\server\source\Limit.cpp" />
+    <ClCompile Include="..\..\..\source\server\source\OmahaHiLo.cpp" />
+    <ClCompile Include="..\..\..\source\server\source\OmahaHoldem.cpp" />
+    <ClCompile Include="..\..\..\source\server\source\PacketSender.cpp" />
+    <ClCompile Include="..\..\..\source\server\source\PacketSenderGame.cpp" />
+    <ClCompile Include="..\..\..\source\server\source\PokerGameBase.cpp" />
+    <ClCompile Include="..\..\..\source\server\source\Razz.cpp" />
+    <ClCompile Include="..\..\..\source\server\source\ServerControl.cpp" />
+    <ClCompile Include="..\..\..\source\server\source\ServerLobby.cpp" />
+    <ClCompile Include="..\..\..\source\server\source\ServerMain.cpp" />
+    <ClCompile Include="..\..\..\source\server\source\SevenCardStud.cpp" />
+    <ClCompile Include="..\..\..\source\server\source\Shuffler.cpp" />
+    <ClCompile Include="..\..\..\source\server\source\SitAndGo.cpp" />
+    <ClCompile Include="..\..\..\source\server\source\StudHiLo.cpp" />
+    <ClCompile Include="..\..\..\source\server\source\TexasHoldem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\source\server\include\ClientSession.h" />
+    <ClInclude Include="..\..\..\source\server\include\ConfigManager.h" />
+    <ClInclude Include="..\..\..\source\server\include\DataManager.h" />
+    <ClInclude Include="..\..\..\source\server\include\Deck.h" />
+    <ClInclude Include="..\..\..\source\server\include\GameBase.h" />
+    <ClInclude Include="..\..\..\source\server\include\GameFactory.h" />
+    <ClInclude Include="..\..\..\source\server\include\GameTimeoutDef.h" />
+    <ClInclude Include="..\..\..\source\server\include\HighLowBase.h" />
+    <ClInclude Include="..\..\..\source\server\include\IGameHandler.h" />
+    <ClInclude Include="..\..\..\source\server\include\ILimit.h" />
+    <ClInclude Include="..\..\..\source\server\include\IOServicePool.h" />
+    <ClInclude Include="..\..\..\source\server\include\OmahaHiLo.h" />
+    <ClInclude Include="..\..\..\source\server\include\OmahaHoldem.h" />
+    <ClInclude Include="..\..\..\source\server\include\PacketSender.h" />
+    <ClInclude Include="..\..\..\source\server\include\PacketSenderGame.h" />
+    <ClInclude Include="..\..\..\source\server\include\PokerGameBase.h" />
+    <ClInclude Include="..\..\..\source\server\include\Razz.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\..\..\source\server\include\ServerControl.h" />
+    <ClInclude Include="..\..\..\source\server\include\ServerLobby.h" />
+    <ClInclude Include="..\..\..\source\server\include\SevenCardStud.h" />
+    <ClInclude Include="..\..\..\source\server\include\Shuffler.h" />
+    <ClInclude Include="..\..\..\source\server\include\SitAndGo.h" />
+    <ClInclude Include="..\..\..\source\server\include\StudHiLo.h" />
+    <ClInclude Include="..\..\..\source\server\include\TexasHoldem.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

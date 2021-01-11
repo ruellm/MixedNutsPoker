@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="PokerClientDotNET.PlayerSeat"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Height="30" Width="410">
+	<UserControl.Resources>
+        <!--<Style  TargetType="TextBox">
+            <Style.Triggers>
+                <Trigger Property="IsEnabled" Value="True">
+                    <Setter Property="Foreground" Value="Blue" />
+                </Trigger>
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="Foreground" Value="Blue" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>-->
+    </UserControl.Resources>
+    <Grid>
+        <Border Name="_mainBorder" BorderThickness="2" BorderBrush="Black">
+            <StackPanel Orientation="Horizontal" Height="26" Width="410">
+                <Button Name="_btnSeat" Content="Sit Down!" Width="60" />
+                <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                    <RichTextBox Name="_holeCards" Margin="1,0"  Width="155"  Background="LightGray" IsReadOnly="True"/>
+                 </ScrollViewer>
+                <!--<TextBox Name="_holeCards" Margin="1,0"  Width="70"  Background="LightGray" IsReadOnly="True"/>-->
+                <TextBox Name="_totalChips" Margin="1,0" Width="50" Text="" Background="LightGray" IsReadOnly="True"/>
+                <TextBox Name="_betValue" Margin="1,0" Width="50" Text="" Background="LightGray" IsReadOnly="True"/>
+                <TextBox Name="_actionValue" FontWeight="Bold" Margin="1,0" Width="50" Background="LightGray" IsReadOnly="True"/>
+                <TextBox Name="_buttonState"  Margin="1,0" Width="32" Text="" Background="LightGray" IsReadOnly="True"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

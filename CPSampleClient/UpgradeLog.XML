@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="CPSampleClient">
+</Property><Property Name="Solution File" Value="E:\MixedNuts\CPSampleClient\CPSampleClient.sln">
+</Property><Property Name="User Options File" Value="E:\MixedNuts\CPSampleClient\CPSampleClient.suo">
+</Property><Property Name="Date" Value="Thursday, March 22, 2012">
+</Property><Property Name="Time" Value="11:12 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="CPSampleClient.sln" Description="File successfully backed up as E:\MixedNuts\CPSampleClient\Backup\CPSampleClient.sln">
+</Event><Event ErrorLevel="0" Project="" Source="CPSampleClient.suo" Description="File successfully backed up as E:\MixedNuts\CPSampleClient\Backup\CPSampleClient.suo">
+</Event><Event ErrorLevel="0" Project="CPSampleClient" Source="CPSampleClient\CPSampleClient.csproj" Description="Project file successfully backed up as E:\MixedNuts\CPSampleClient\Backup\CPSampleClient\CPSampleClient.csproj">
+</Event><Event ErrorLevel="0" Project="CPSampleClient" Source="CPSampleClient\Program.cs" Description="File successfully backed up as E:\MixedNuts\CPSampleClient\Backup\CPSampleClient\Program.cs">
+</Event><Event ErrorLevel="0" Project="CPSampleClient" Source="CPSampleClient\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\MixedNuts\CPSampleClient\Backup\CPSampleClient\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="CPSampleClient" Source="CPSampleClient\CPSampleClient.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CPSampleClient" Source="CPSampleClient\CPSampleClient.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="CPSampleClient.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="CPSampleClient.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CPSampleClient" Source="CPSampleClient\CPSampleClient.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

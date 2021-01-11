@@ -1,0 +1,133 @@
+
+Timer timer;
+
+TexasHoldem:Start()			//tournament and cash game
+{
+	SetState(TX_PlayNextRound; //PK or TX I think pwedi na diretso
+}
+
+TXTournament:Begin
+
+
+TexasHoldemSNG::Start()
+{
+    SetState(TXNG_Wait); //PK or TX I think pwedi na diretso
+}
+
+
+TXNG_Wait_Enter()
+{
+
+   timer.settime(wait_timeout,func);
+}
+
+
+
+TXNG_Wait_func()
+{
+	if(game->playersFull())
+		NotifyStartGame
+		setstate(TX_PlayNextRound; )
+	else
+	   timer.settime(wait_timeout,func);
+}
+
+TX_PlayNextRound; ::Enter()
+{
+   timer.settime(waiting_timeout,func); //1 or 2 sec
+}
+
+TX_PlayNextRound::func()
+{
+   game->BeginRound();
+   if(game->hasRoundPlayer())
+   {
+	SetStae(TX_DealHole);
+   }
+   else
+	timer.settime(waiting_timeout,func); //1 or 2 sec	
+
+}
+
+
+TX_DealHolde::Enter()
+{
+	timeout
+}
+
+TX_DealHolde::timeout()
+{
+	foreach()
+	{
+		Deal
+		SendSnapShot
+	}
+	SetState(PKR_Betting(game,DealFlop));
+}
+
+PKR_Betting::Enter()
+{
+	timeout(foo);
+}
+
+PKR_Betting::foo()
+{
+	get nextAction Player
+		
+	//Compute if there is still players remaining or if all players are all in
+	if(all_players_fold and next_player= first to act(nibalik)
+	{
+		game->HandleWin(player)
+		{
+			if(hasroundplayer>1)
+				nextRound
+			les
+				declareWinner
+		}
+	}
+
+        if(nextaction_player = valid)
+  	   timneout(PKR_Betting:WaitAction player)
+           sendSnapshat(waitg)
+	else
+           SetState(NextState);
+}
+
+PKR_Betting:Waitaction()
+{
+	force action->fold   
+}
+
+PKR_Bet::HandlePacket(packet)
+{
+	//chechk if packet valid for specific player
+       if(action_valid) {
+		timer.cancel
+		Game->SetPlayeraction(clientid, action);						nextactionplayer= get next
+		
+		if(allcall)
+			setState(NextState);
+
+		timeout(foo);
+        }
+}
+
+TX_Deal_FLop:enter()
+{
+	Burn();
+	gameCommunity.add();
+	gameCommunity.add();
+	gameCommunity.add();
+	SetState(Betting);
+}
+
+//during tournament
+TOurnamentManager:
+	register()
+	timer of start
+	timer_triggered()
+	{
+		loop all registered players, divide per table
+		create table	
+		table
+	}

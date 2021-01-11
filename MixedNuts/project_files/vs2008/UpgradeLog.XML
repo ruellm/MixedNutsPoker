@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MixedNuts">
+</Property><Property Name="Solution File" Value="F:\MixedNuts\MixedNuts\project_files\vs2008\MixedNuts.sln">
+</Property><Property Name="User Options File" Value="F:\MixedNuts\MixedNuts\project_files\vs2008\MixedNuts.suo">
+</Property><Property Name="Date" Value="Friday, April 20, 2012">
+</Property><Property Name="Time" Value="17:49 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="MixedNuts.sln" Description="File successfully backed up as F:\MixedNuts\MixedNuts\project_files\vs2008\MixedNuts.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="MixedNuts.suo" Description="File successfully backed up as F:\MixedNuts\MixedNuts\project_files\vs2008\MixedNuts.suo.old">
+</Event><Event ErrorLevel="0" Project="pokerlib" Source="pokerlib\pokerlib.vcproj" Description="Converting project file 'F:\MixedNuts\MixedNuts\project_files\vs2008\pokerlib\pokerlib.vcproj'.">
+</Event><Event ErrorLevel="1" Project="pokerlib" Source="pokerlib\pokerlib.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="pokerlib" Source="pokerlib\pokerlib.vcproj" Description="Done converting to new project file 'F:\MixedNuts\MixedNuts\project_files\vs2008\pokerlib\pokerlib.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="pokerlib" Source="pokerlib\pokerlib.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="server" Source="server\server.vcproj" Description="Converting project file 'F:\MixedNuts\MixedNuts\project_files\vs2008\server\server.vcproj'.">
+</Event><Event ErrorLevel="1" Project="server" Source="server\server.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="server" Source="server\server.vcproj" Description="Done converting to new project file 'F:\MixedNuts\MixedNuts\project_files\vs2008\server\server.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="server" Source="server\server.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="system" Source="system\system.vcproj" Description="Converting project file 'F:\MixedNuts\MixedNuts\project_files\vs2008\system\system.vcproj'.">
+</Event><Event ErrorLevel="1" Project="system" Source="system\system.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="system" Source="system\system.vcproj" Description="Done converting to new project file 'F:\MixedNuts\MixedNuts\project_files\vs2008\system\system.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="system" Source="system\system.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MixedNuts.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="MixedNuts.sln" Description="Converted">
+</Event></UpgradeLog>

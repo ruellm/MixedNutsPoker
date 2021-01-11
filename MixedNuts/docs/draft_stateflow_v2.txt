@@ -1,0 +1,78 @@
+
+
+TexasHoldem::Start()
+{
+   WaitFoo(time,PlayNextRound);
+}
+
+TexasHoldem:WaitFoo(timewait, pFunc)
+{
+   timer.time(PlayNextRound,PFunc);
+}
+
+
+TexasHoldem::PlayNextRound()
+{
+	if(game->hasRoundPlayer())
+	{		
+	   WaitFoo(time,DealHOle);	
+	}
+
+	else
+	   WaitFoo(time,PlayNextRound);
+}
+
+TexasHoldem::DealHOle()
+{
+	foreach()
+	{
+		Deal
+		SendSnapShot
+	}
+
+}
+
+TexasHoldem::Betting()
+{
+	PokerBase::Betting(nextpgase);
+}
+
+
+PokerBase::Betting()
+{
+	if(allplayer call or check)
+		nextphase()
+	else
+	
+		Player=getunderthegun()
+		//check status
+		Notify(player);
+		timer.wait(expire);
+}
+
+PokerBase::Expire()
+{
+	if(player->action == none)
+	{
+		fold_player;
+	}
+	Betting() //resumet betting
+}
+
+TexasHoldem::SetPlayerAction(action,player)
+{
+	action->fold();
+}
+
+-------------------------------------------------------------------------
+TexasHoldemSng:Start()
+{
+    WaitFoo(time,WaitPlayers);	
+}
+
+TexasHoldemSng:WaitPlayers()
+{
+	TexasHoldem::Start();
+}
+
+-------------------------------------------------------------
